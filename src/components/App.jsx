@@ -32,6 +32,7 @@ export class App extends Component {
     const { good, neutral, bad } = this.state;
   
     const buttonsName = Object.keys(this.state);
+  
     return (
       <div>
         <Section title="Please leave feedback">
